@@ -164,7 +164,7 @@ document.addEventListener('DOMContentLoaded', function() {
       imageData.append('image', imageInput.files[0]);
 
       try {
-        const response = await fetch('http://localhost:3001/upload', {
+        const response = await fetch('http://localhost:7000/upload', {
           method: 'POST',
           body: imageData,
         });

@@ -110,7 +110,7 @@ function createEventCard(event, venueName, clubName) {
   // Create an image element
   const image = document.createElement('img');
   // Set the image source to the provided URL
-  image.src = '../../imageUpload/images/' + event.name + '.jpg';
+  image.src = '../images/' + event.name + '.jpg';
   // Append the image to the image box
   imageBox.appendChild(image);
 
