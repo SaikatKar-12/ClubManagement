@@ -20,7 +20,7 @@ const upload = multer({storage: storage})
 app.use(cors());
 //app.use('/', express.static(__dirname + '/home'));
 app.get('/home', (req, res) => {
-  res.sendFile(path.join(staticPath, 'home', 'home.html'));
+  res.sendFile(path.join(staticPath, 'home', 'Home.html'));
 });
 app.post("/upload",upload.single("image"),(req,res)=>{
   res.status(200).json({
