@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.log('Login successful', data);
             token = data.data;
             localStorage.setItem('authToken', token);
-            window.location.href = '../home/HOME.html';
+            window.location.href = '../home/Home.html';
         })
         .catch(error => {
             // Handle login errors here
