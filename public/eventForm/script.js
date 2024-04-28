@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       console.log(responseData);
       //alert('Event created successfully!');
-      window.location.href = '../eventpage/index.html';
+      //window.location.href = '../eventpage/index.html';
     } catch (error) {
       console.error('Error:', error);
       if (error instanceof TypeError) {
